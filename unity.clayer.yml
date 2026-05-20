@@ -1,0 +1,12 @@
+layer:
+  # A layer is a collection of pre-configured source files or components
+  type: Unity
+  description: Unity layer
+
+  add-path:
+    - ./src
+
+  groups:
+    - group: unity
+      files:
+        - file: ./src/unity.c
